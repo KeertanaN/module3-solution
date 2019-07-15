@@ -21,21 +21,32 @@
 }
 
 div.navbar-header h2{
+  text-align:center; 
 	position: relative;
 	font-family: 'Crimson Text', serif;
 	font-weight: bold;
 	float:left;
-	font-size: 2em;
+	font-size: 1.8em;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	font-weight: bold;
 	left:0px;
 	margin-left: 0px;
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-bottom: 0;
 	padding: 0px;
 	line-height: .75;
 	width: 100%
+}
+
+
+.container .navbar-header{
+  margin-top: -8px;
+}
+
+.navbar-brand a:hover{
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #87CEEB;
 }
 
 #header-nav
@@ -71,7 +82,7 @@ div#collapsable-nav li{
 div#container{
  /* background-color: #00FFFF;*/
   position: relative;
-  top: 40px;
+  top: 20px;
 }
 
 div#container h2{
@@ -98,6 +109,8 @@ p {
   color: black;
   padding-top: 40px;
   padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 } 
 
 
@@ -137,11 +150,17 @@ p {
 
 #container h3{	
 position: relative;
-margin-top: 5px;
+margin-top: 8px;
 float: left;
-left: 45%;
+left: 47%;
 font-style: italic;
 }
 
+#Pasta, #Pizza, #Dessert{
+  width: 100%;
+  padding: 10px, 20px, 20px,20px;
+  margin-bottom: 20px;
+
+}
 
 </style>
